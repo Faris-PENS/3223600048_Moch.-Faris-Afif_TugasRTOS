@@ -1,11 +1,11 @@
 # GAMBAR
 
-<img width="578" height="539" alt="image" src="https://github.com/user-attachments/assets/09f7b17a-a809-4c41-bf0d-893855e367a0" />
+<img width="442" height="556" alt="image" src="https://github.com/user-attachments/assets/c7b7b09a-759e-4985-8530-8a4f7afecbfc" />
 
 # VIDEO
 
-https://github.com/user-attachments/assets/d6c16b42-5ae2-4756-8816-f9b0b47061a5
+https://github.com/user-attachments/assets/d9eae3df-0b66-457d-8fc5-45550093dd27
 
 # LINK PROJECT
 
-https://wokwi.com/projects/447235825474569217
+https://wokwi.com/projects/447242207699752961
