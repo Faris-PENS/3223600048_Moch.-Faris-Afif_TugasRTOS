@@ -17,7 +17,7 @@ void setup() {
   // core 0
   xTaskCreatePinnedToCore(BUZZER, "BUZZER", 2048, NULL, 1, NULL, 0);
   // core 1
-  xTaskCreatePinnedToCore(BUZZER, "BUZZER", 2048, NULL, 1, NULL, 1);
+  // xTaskCreatePinnedToCore(BUZZER, "BUZZER", 2048, NULL, 1, NULL, 1);
 }
 
 void loop() {
