@@ -33,7 +33,10 @@ void setup() {
   pinMode(20, INPUT);
   pinMode(21, INPUT_PULLUP);
   prev_CLK_state = digitalRead(19);
+  // core 0
   xTaskCreatePinnedToCore(ENCODER, "ENCODER", 2048, NULL, 1, NULL, 0);
+  // core 1
+  xTaskCreatePinnedToCore(ENCODER, "ENCODER", 2048, NULL, 1, NULL, 1);
 }
 
 void loop() {
