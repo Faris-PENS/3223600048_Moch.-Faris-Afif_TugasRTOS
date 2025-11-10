@@ -4,8 +4,8 @@
 
 # VIDEO
 
+- Core 1
 https://github.com/user-attachments/assets/39d74686-e78b-438a-b578-05c6a8f878fc
-
 
 # LINK PROJECT
 
