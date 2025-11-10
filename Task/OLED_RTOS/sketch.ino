@@ -27,7 +27,10 @@ void setup() {
     Serial.println("GAGAL INISIALISASI");
     
   }
+  // core 0
    xTaskCreatePinnedToCore(OLED, "OLED", 2048, NULL, 1, NULL, 0);
+  // core 1
+  // xTaskCreatePinnedToCore(OLED, "OLED", 2048, NULL, 1, NULL, 1);
   
 }
 
