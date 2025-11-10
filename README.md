@@ -1,7 +1,7 @@
 # Langkah Percobaan
 - RTOS pada ESP32 - S3 sudah bawaan tidak usah download library
 - Menggunakan Fungsi xTaskCreatePinnedToCore() Dimana :
-  <pre>  xTaskCreatePinnedToCore(
+  <pre>  ```xTaskCreatePinnedToCore(
     STEPPER,          // fungsi task
     "STEPPER",        // nama task
     4096,             // ukuran stack
@@ -9,7 +9,7 @@
     1,                // prioritas
     NULL,             // handle task
     0                 // core 0
-    );  </pre>
+    );```  </pre>
 - Kemudian membuat nama fungsi sesuai yang diisi pada langkah sebelumnya contoh:
   <pre>void STEPPER(void *pvParameters) {
 
