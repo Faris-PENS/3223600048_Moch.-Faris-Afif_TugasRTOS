@@ -19,7 +19,10 @@ void STEPPER(void *pvParameters) {
 void setup() {
   Serial.begin(115200);
   stepper.setMaxSpeed(speed);
+  // core 0
   xTaskCreatePinnedToCore(STEPPER, "STEPPER", 2048, NULL, 1, NULL, 0);
+  // core 1
+  // xTaskCreatePinnedToCore(STEPPER, "STEPPER", 2048, NULL, 1, NULL, 1);
 }
 
 void loop() {
