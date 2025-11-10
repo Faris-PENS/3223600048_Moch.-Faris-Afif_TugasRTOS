@@ -12,7 +12,10 @@ void POTENTIO(void *pvParameters) {
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
+  // core 0
   xTaskCreatePinnedToCore(POTENTIO, "POTENTIO", 2048, NULL, 1, NULL, 0);
+  // core 1
+  // xTaskCreatePinnedToCore(POTENTIO, "POTENTIO", 2048, NULL, 1, NULL, 1);
 }
 
 void loop() {
